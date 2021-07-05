@@ -1,0 +1,13 @@
+:root{
+  // Colors
+  --black: #1b1b1b;
+  --white: #ffffff;
+
+  // Gradient
+  --gradientOrange: linear-gradient(90deg, rgba(238,156,57,1) 0%, rgba(231,123,68,1) 100%);
+  --gradientBlue: linear-gradient(90deg, #34e7e0 0%, #398ed2 100%);
+
+  // Transitions
+  --fast: all 0.2s cubic-bezier(0.25, 0.1, 0.25, 1);
+  --slow: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}

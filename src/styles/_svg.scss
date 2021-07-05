@@ -1,0 +1,14 @@
+.icons-search{
+  mask: url('/svg/search.svg') no-repeat;
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      background: url('/svg/search.svg') no-repeat !important;
+      background-size: contain !important;
+  }
+}
+.svg-icon {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background: #fff;
+  -webkit-mask-size: contain;
+}
